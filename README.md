@@ -16,12 +16,12 @@ export ELASTIC_PASSWORD="your_elasticsearch_password"
 ```
 2. Create the poems index and set up the mapping using curl. This command assumes you have the required mapping file in your project's search_data directory and you are in the search_data directory:
 ```bash
-curl --cacert "$ES_HOME/config/certs/http_ca.crt" -u elastic:$ELASTIC_PASSWORD -X PUT "https://localhost:9200/poems?pretty" -H "Content-Type: application/json" -d @search_data/mapping_file.json
+curl --cacert "$ES_HOME/config/certs/http_ca.crt" -u elastic:$ELASTIC_PASSWORD -X PUT "https://localhost:9200/poems?pretty" -H "Content-Type: application/json" -d @mapping_file.json
 ```
 
 3. Import data into the poems index using curl. This command assumes you have the data file in your project's search_data directory and you are in that directory:
 ```bash
-curl --cacert "$ES_HOME/config/certs/http_ca.crt" -X POST "https://localhost:9200/poems/_bulk?pretty" -H "Content-Type: application/json" -u elastic:$ELASTIC_PASSWORD --data-binary @search_data/data_file.json
+curl --cacert "$ES_HOME/config/certs/http_ca.crt" -X POST "https://localhost:9200/poems/_bulk?pretty" -H "Content-Type: application/json" -u elastic:$ELASTIC_PASSWORD --data-binary @data_file.json
 ```
 
 By following these steps, you'll have Elasticsearch set up and indexed with the necessary data to use with the Poetic Metaphor Search Application.
