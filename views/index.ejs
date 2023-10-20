@@ -1,69 +1,51 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>Poem Search App</title>
-    <link rel="stylesheet" href="/styles.css">
-</head>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <h1>Poem Search App</h1>
-        <form action="/search" method="post">
-            <select name="searchOption">
-                <option value="title">Poem Title</option>
-                <option value="content">Content</option>
-                <option value="poet">Poet</option>
-                <option value="metaphor">Metaphor</option>
-                <option value="metaphorEnglish">Metaphor in English</option>
-                <option value="meaning">Meaning</option>
-            </select>
-            <input type="text" name="searchTerm" placeholder="Search..." />
-            <button type="submit">Search</button>
-        </form>
+      <h1>Poem Search App</h1>
+      <form action="/search" method="post">
+        <select name="searchOption">
+          <option value="poem_name">Poem Title</option>
+          <option value="poet">Poet</option>
+          <option value="line">Line</option>
+          <option value="Metaphor_in_English">Metaphor in English</option>
+          <option value="Metaphor meaning in English">
+            Meaning in English
+          </option>
+        </select>
+        <input type="text" name="searchTerm" placeholder="Search..." />
+        <button type="submit">Search</button>
+      </form>
 
-        <% if (searchResults) { %>
-            <h2>Search Results:</h2>
-            <table>
-                <tr>
-                    <th>Poem Title</th>
-                    <th>Content</th>
-                    <th>Poet</th>
-                    <th>Metaphor</th>
-                    <th>Metaphor in English</th>
-                    <th>Meaning</th>
-                </tr>
-                <% searchResults.forEach(result=> { %>
-                    <tr>
-                        <td>
-                            <%= result.title %>
-                        </td>
-                        <td>
-                            <%= result.content %>
-                        </td>
-                        <td>
-                            <%= result.poet %>
-                        </td>
-                        <td>
-                            <%= result.metaphor %>
-                        </td>
-                        <td>
-                            <%= result.metaphorEnglish %>
-                        </td>
-                        <td>
-                            <%= result.meaning %>
-                        </td>
-                    </tr>
-                    <% }); %>
-            </table>
-            <% } %>
+      <% if (searchResults) { %>
+      <h2>Search Results:</h2>
+      <table>
+        <tr>
+          <th>Poem Name</th>
+          <th>Poet</th>
+          <th>Line</th>
+          <th>Metaphor in English</th>
+          <th>Meaning</th>
+        </tr>
+        <% searchResults.forEach(result=> { %>
+        <tr>
+          <td><%= result.poem_name %></td>
+          <td><%= result.poet %></td>
+          <td><%= result.line %></td>
 
-                <% if (error) { %>
-                    <p class="error">
-                        <%= error %>
-                    </p>
-                    <% } %>
+          <td><%= result.Metaphor_in_English %></td>
+          <td><%= result['Metaphor meaning in English'] %></td>
+        </tr>
+        <% }); %>
+      </table>
+      <% } %> <% if (error) { %>
+      <p class="error"><%= error %></p>
+      <% } %>
     </div>
-</body>
-
+  </body>
 </html>

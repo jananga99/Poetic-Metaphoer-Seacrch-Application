@@ -1,0 +1,56 @@
+{
+    "settings": {
+        "index": {
+            "analysis": {
+                "analyzer": {
+                    "plain": {
+                        "filter": [],
+                        "tokenizer": "standard"
+                    },
+                    "case_insensitive": {
+                        "filter": ["lowercase"],
+                        "tokenizer": "standard"
+                    },
+                    "inflections": {
+                        "filter": ["porter_stem"],
+                        "tokenizer": "standard"
+                    },
+                    "case_insensitive_and_inflections": {
+                        "filter": ["lowercase", "porter_stem"],
+                        "tokenizer": "standard"
+                    }
+                }
+            }
+        }
+    },
+    "mappings": {
+        "properties": {
+            "poem_name": {
+                "type": "text",
+                "analyzer": "plain"
+            },
+            "poet": {
+                "type": "text",
+                "analyzer": "plain"
+            },
+            "line": {
+                "type": "text",
+                "analyzer": "plain"
+            },
+            "Metaphor present or not": {
+                "type": "keyword"
+            },
+            "metaphorical_terms": {
+                "type": "integer"
+            },
+            "Metaphor_in_English": {
+                "type": "text",
+                "analyzer": "plain"
+            },
+            "Metaphor meaning in English": {
+                "type": "text",
+                "analyzer": "plain"
+            }
+        }
+    }
+}
