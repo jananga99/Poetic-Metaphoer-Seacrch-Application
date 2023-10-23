@@ -27,15 +27,57 @@
         "properties": {
             "poem_name": {
                 "type": "text",
-                "analyzer": "plain"
+                "analyzer": "plain",
+                "fields": {
+                    "case_insensitive": {
+                      "type":  "text",
+                      "analyzer": "case_insensitive"
+                    },
+                    "inflections": {
+                      "type":  "text",
+                      "analyzer": "inflections"
+                    },
+                    "case_insensitive_and_inflections": {
+                      "type":  "text",
+                      "analyzer": "case_insensitive_and_inflections"
+                    }
+                  }
             },
             "poet": {
                 "type": "text",
-                "analyzer": "plain"
+                "analyzer": "plain",
+                "fields": {
+                    "case_insensitive": {
+                      "type":  "text",
+                      "analyzer": "case_insensitive"
+                    },
+                    "inflections": {
+                      "type":  "text",
+                      "analyzer": "inflections"
+                    },
+                    "case_insensitive_and_inflections": {
+                      "type":  "text",
+                      "analyzer": "case_insensitive_and_inflections"
+                    }
+                  }
             },
             "line": {
                 "type": "text",
-                "analyzer": "plain"
+                "analyzer": "plain",
+                "fields": {
+                    "case_insensitive": {
+                      "type":  "text",
+                      "analyzer": "case_insensitive"
+                    },
+                    "inflections": {
+                      "type":  "text",
+                      "analyzer": "inflections"
+                    },
+                    "case_insensitive_and_inflections": {
+                      "type":  "text",
+                      "analyzer": "case_insensitive_and_inflections"
+                    }
+                  }
             },
             "metaphor_present_or_not": {
                 "type": "keyword"
@@ -45,15 +87,57 @@
             },
             "metaphorical_terms": {
                 "type": "text",
-                "analyzer": "plain"
+                "analyzer": "plain",
+                "fields": {
+                    "case_insensitive": {
+                      "type":  "text",
+                      "analyzer": "case_insensitive"
+                    },
+                    "inflections": {
+                      "type":  "text",
+                      "analyzer": "inflections"
+                    },
+                    "case_insensitive_and_inflections": {
+                      "type":  "text",
+                      "analyzer": "case_insensitive_and_inflections"
+                    }
+                  }
             },
             "metaphor_in_english": {
                 "type": "text",
-                "analyzer": "plain"
+                "analyzer": "plain",
+                "fields": {
+                    "case_insensitive": {
+                      "type":  "text",
+                      "analyzer": "case_insensitive"
+                    },
+                    "inflections": {
+                      "type":  "text",
+                      "analyzer": "inflections"
+                    },
+                    "case_insensitive_and_inflections": {
+                      "type":  "text",
+                      "analyzer": "case_insensitive_and_inflections"
+                    }
+                  }
             },
             "metaphor_meaning_in_english": {
                 "type": "text",
-                "analyzer": "plain"
+                "analyzer": "plain",
+                "fields": {
+                    "case_insensitive": {
+                      "type":  "text",
+                      "analyzer": "case_insensitive"
+                    },
+                    "inflections": {
+                      "type":  "text",
+                      "analyzer": "inflections"
+                    },
+                    "case_insensitive_and_inflections": {
+                      "type":  "text",
+                      "analyzer": "case_insensitive_and_inflections"
+                    }
+                  }
             }
         }
     }

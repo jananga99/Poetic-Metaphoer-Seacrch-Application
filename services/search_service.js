@@ -11,7 +11,7 @@ const axiosInstance = axios.create({
 async function searchByTerm(field, term) {
   const query = {
     match: {
-      [field]: term,
+      [`${field}.case_insensitive_and_inflections`]: term,
     },
   };
   const values = [];
