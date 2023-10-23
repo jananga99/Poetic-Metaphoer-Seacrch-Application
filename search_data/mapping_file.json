@@ -37,17 +37,21 @@
                 "type": "text",
                 "analyzer": "plain"
             },
-            "Metaphor present or not": {
+            "metaphor_present_or_not": {
                 "type": "keyword"
             },
-            "metaphorical_terms": {
-                "type": "integer"
+            "metaphor_count":{
+            	"type": "integer"
             },
-            "Metaphor_in_English": {
+            "metaphorical_terms": {
                 "type": "text",
                 "analyzer": "plain"
             },
-            "Metaphor meaning in English": {
+            "metaphor_in_english": {
+                "type": "text",
+                "analyzer": "plain"
+            },
+            "metaphor_meaning_in_english": {
                 "type": "text",
                 "analyzer": "plain"
             }
