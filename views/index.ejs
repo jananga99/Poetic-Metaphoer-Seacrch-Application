@@ -13,8 +13,9 @@
           <option value="poem_name">Poem Title</option>
           <option value="poet">Poet</option>
           <option value="line">Line</option>
-          <option value="Metaphor_in_English">Metaphor in English</option>
-          <option value="Metaphor meaning in English">
+          <option value="metaphor_count">Metaphor Count</option>
+          <option value="metaphor_in_english">Metaphor in English</option>
+          <option value="metaphor_meaning_in_english">
             Meaning in English
           </option>
         </select>
@@ -29,6 +30,7 @@
           <th>Poem Name</th>
           <th>Poet</th>
           <th>Line</th>
+          <th>Metaphor Count</th>
           <th>Metaphor in English</th>
           <th>Meaning</th>
         </tr>
@@ -37,9 +39,9 @@
           <td><%= result.poem_name %></td>
           <td><%= result.poet %></td>
           <td><%= result.line %></td>
-
-          <td><%= result.Metaphor_in_English %></td>
-          <td><%= result['Metaphor meaning in English'] %></td>
+          <td><%= result.metaphor_count %></td>
+          <td><%= result.metaphor_in_english %></td>
+          <td><%= result.metaphor_meaning_in_english %></td>
         </tr>
         <% }); %>
       </table>

@@ -1,4 +1,12 @@
 const axios = require("axios");
+const https = require('https');
+
+const agent = new https.Agent({ rejectUnauthorized: false });
+
+const axiosInstance = axios.create({
+  httpsAgent: agent
+});
+
 
 async function searchByTerm(field, term) {
   const query = {
@@ -8,10 +16,10 @@ async function searchByTerm(field, term) {
   };
   const values = [];
   try {
-    const res = await axios.get(process.env.ELASTIC_SEARCH_URL, {
+    const res = await axiosInstance.get(process.env.ELASTIC_SEARCH_URL, {
       headers: {
         Authorization: `Basic ${Buffer.from(
-          `${process.env.ELASTIC_USERNAME}:${process.env.ELASTIC_PASSOWRD}`
+          `${process.env.ELASTIC_USERNAME}:${process.env.ELASTIC_PASSWORD}`
         ).toString("base64")}`,
         "Content-Type": "application/json",
       },
