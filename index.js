@@ -1,5 +1,5 @@
 const express = require("express");
-const { searchByTerm } = require("./services/search_service");
+const { searchByTerms } = require("./services/search_service");
 const bodyParser = require("body-parser");
 require("dotenv").config();
 const app = express();
@@ -11,10 +11,13 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 app.post("/search", async (req, res, next) => {
-  const searchOption = req.body.searchOption;
-  const searchTerm = req.body.searchTerm;
+  const searchOptions = ["poem_name","poet","line","metaphor_count", "metaphor_in_english", "metaphor_meaning_in_english"]
+  const searchData = {}
+  searchOptions.forEach((value)=>{
+    if(req.body[value])  searchData[value] = req.body[value]
+  })
   try {
-    const searchResults = await searchByTerm(searchOption, searchTerm);
+    const searchResults = await searchByTerms(searchData);
     res.render("index", { searchResults, error: null });
   } catch (err) {
     next(err);

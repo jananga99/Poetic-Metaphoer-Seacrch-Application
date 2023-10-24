@@ -8,12 +8,20 @@ const axiosInstance = axios.create({
 });
 
 
-async function searchByTerm(field, term) {
+async function searchByTerms(searchData) {
   const query = {
-    match: {
-      [`${field}.case_insensitive_and_inflections`]: term,
-    },
-  };
+    bool:{
+      should:Object.keys(searchData).map((key)=>{
+        return {
+          "match": {
+            [`${key}.case_insensitive_and_inflections`]: searchData[key]
+          }
+        }
+      }),
+      minimum_should_match:1
+    }
+
+  }
   const values = [];
   try {
     const res = await axiosInstance.get(process.env.ELASTIC_SEARCH_URL, {
@@ -37,9 +45,9 @@ async function searchByTerm(field, term) {
     }
     return values;
   } catch (err) {
-    console.error(err);
+    // console.error(err);
     throw Error("Search by term error occured");
   }
 }
 
-module.exports = { searchByTerm };
+module.exports = { searchByTerms };
