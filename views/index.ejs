@@ -3,48 +3,75 @@
   <head>
     <title>Poetic-Metaphoer-Search-Application</title>
     <link rel="stylesheet" href="/styles.css" />
+    <script src="/script.js"></script>
   </head>
 
   <body>
     <div class="container">
       <h1>Poetic-Metaphoer-Search-Application</h1>
       <form action="/search" method="post">
-        <select name="searchOption">
-          <option value="poem_name">Poem Title</option>
-          <option value="poet">Poet</option>
-          <option value="line">Line</option>
-          <option value="metaphor_count">Metaphor Count</option>
-          <option value="metaphor_in_english">Metaphor in English</option>
-          <option value="metaphor_meaning_in_english">
-            Meaning in English
-          </option>
-        </select>
-        <input type="text" name="searchTerm" placeholder="Search..." />
-        <button type="submit">Search</button>
+        <div class="search-option">
+          <label for="poem_name">Poem Title</label>
+          <input type="text" id="poem_name" name="poem_name" placeholder="Enter Poem Title" value="<%= searchData?.poem_name || '' %>" />
+        </div>
+      
+        <div class="search-option">
+          <label for="poet">Poet</label>
+          <input type="text" id="poet" name="poet" placeholder="Enter Poet" value="<%= searchData?.poet || '' %>" />
+        </div>
+      
+        <div class="search-option">
+          <label for="line">Line</label>
+          <input type="text" id="line" name="line" placeholder="Enter Line" value="<%= searchData?.line || '' %>" />
+        </div>
+      
+        <div class="search-option">
+          <label for="metaphor_count">Metaphor Count</label>
+          <input type="number" id="metaphor_count" name="metaphor_count" placeholder="Enter Metaphor Count" value="<%= searchData?.metaphor_count || '' %>"  />
+        </div>
+      
+        <div class="search-option">
+          <label for="metaphor_in_english">Metaphor in English</label>
+          <input type="text" id="metaphor_in_english" name="metaphor_in_english" placeholder="Enter Metaphor in English" value="<%= searchData?.metaphor_in_english || '' %>" />
+        </div>
+      
+        <div class="search-option">
+          <label for="metaphor_meaning_in_english">Mtaphor meaning in English</label>
+          <input type="text" id="metaphor_meaning_in_english" name="metaphor_meaning_in_english" placeholder="Enter Meaning in English" value="<%= searchData?.metaphor_meaning_in_english || '' %>" />
+        </div>
+      
+        <div class="submit-button">
+          <button type="submit">Search</button>
+        </div>
+
       </form>
 
       <% if (searchResults) { %>
-      <h2>Search Results:</h2>
-      <table>
-        <tr>
-          <th>Poem Name</th>
-          <th>Poet</th>
-          <th>Line</th>
-          <th>Metaphor Count</th>
-          <th>Metaphor in English</th>
-          <th>Meaning</th>
-        </tr>
-        <% searchResults.forEach(result=> { %>
-        <tr>
-          <td><%= result.poem_name %></td>
-          <td><%= result.poet %></td>
-          <td><%= result.line %></td>
-          <td><%= result.metaphor_count %></td>
-          <td><%= result.metaphor_in_english %></td>
-          <td><%= result.metaphor_meaning_in_english %></td>
-        </tr>
-        <% }); %>
-      </table>
+        <h2>Search Results:</h2>
+        <% if (searchResults.length>0) { %>
+          <table>
+            <tr>
+              <th>Poem Name</th>
+              <th>Poet</th>
+              <th>Line</th>
+              <th>Metaphor Count</th>
+              <th>Metaphor in English</th>
+              <th>Meaning</th>
+            </tr>
+            <% searchResults.forEach(result=> { %>
+            <tr>
+              <td><%= result.poem_name %></td>
+              <td><%= result.poet %></td>
+              <td><%= result.line %></td>
+              <td><%= result.metaphor_count %></td>
+              <td><%= result.metaphor_in_english %></td>
+              <td><%= result.metaphor_meaning_in_english %></td>
+            </tr>
+            <% }); %>
+          </table>
+        <% }else{ %>
+          <p class="error">There are no search results.</p>
+        <% } %> 
       <% } %> <% if (error) { %>
       <p class="error"><%= error %></p>
       <% } %>

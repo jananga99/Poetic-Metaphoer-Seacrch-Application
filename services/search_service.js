@@ -12,11 +12,16 @@ async function searchByTerms(searchData) {
   const query = {
     bool:{
       should:Object.keys(searchData).map((key)=>{
-        return {
+        const ret = key==="metaphor_count" ? {
           "match": {
-            [`${key}.case_insensitive_and_inflections`]: searchData[key]
+          [key]: searchData[key]
           }
-        }
+        }:{
+          "match": {
+          [`${key}.case_insensitive_and_inflections`]: searchData[key]
+          }
+        } 
+        return ret
       }),
       minimum_should_match:1
     }
