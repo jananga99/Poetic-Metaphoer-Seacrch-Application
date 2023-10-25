@@ -1,5 +1,5 @@
 const express = require("express");
-const { searchByTerms } = require("./services/search_service");
+const { searchByTerms, searchAll } = require("./services/search_service");
 const bodyParser = require("body-parser");
 require("dotenv").config();
 const app = express();
@@ -17,7 +17,14 @@ app.post("/search", async (req, res, next) => {
     if(req.body[value])   searchData[value] = value==="metaphor_count" ?   parseInt(req.body[value]):req.body[value]
   })
   try {
-    const searchResults = await searchByTerms(searchData);
+    let searchResults;
+    if(req.body.submit === "search-all"){
+      searchResults = await searchAll(onlyMetaphors=true);
+    }else if(req.body.submit === "search"){
+      searchResults = await searchByTerms(searchData, onlyMetaphors=true);
+    } else {
+      throw new Error("Unknown submit option")
+    }
     res.render("index", { searchResults, error: null, searchData });
   } catch (err) {
     next(err);

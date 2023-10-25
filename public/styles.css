@@ -36,6 +36,22 @@ form {
   align-items: center;
 }
 
+.submit-button button{
+  margin-inline: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.submit-button #show-all{
+  background-color: #ff0000;
+}
+
+.submit-button #show-all:hover{
+  background-color: crimson;
+}
+
 label {
   display: block;
   margin-bottom: 5px;
@@ -64,9 +80,7 @@ button {
   transition: background-color 0.3s;
 }
 
-button:hover {
-  background-color: #0056b3;
-}
+
 
 table {
   width: 100%;
