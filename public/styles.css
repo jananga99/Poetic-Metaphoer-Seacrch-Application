@@ -27,6 +27,9 @@ form {
   /* flex-basis: calc(50% - 10px); */
   margin: 30px;
   display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
 }
 
 .submit-button{
