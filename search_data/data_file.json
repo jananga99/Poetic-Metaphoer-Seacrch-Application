@@ -261,7 +261,7 @@
 {"index": {"_index": "poems"}}
 {"poem_name": "සුතනඹුන් මරා ගෙල වැළ ලා ගත් පියෙක්", "poet": "ආරියවංශ රණවීර​", "line": "ඇතුළු බර", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
 {"index": {"_index": "poems"}}
-{"poem_name": "සුතනඹුන් මරා ගෙල වැළ ලා ගත් පියෙක්", "poet": "ආරියවංශ රණවීර​", "line": "රබර්‌ ගස්‌ හිස", "metaphor_present_or_not": "yes", "metaphor_count": 1, "metaphorical_terms": "රබර්‌ ගස්‌ හිස", "metaphor_in_english": "The rubber head", "metaphor_meaning_in_english": ""}
+{"poem_name": "සුතනඹුන් මරා ගෙල වැළ ලා ගත් පියෙක්", "poet": "ආරියවංශ රණවීර​", "line": "රබර්‌ ගස්‌ හිස", "metaphor_present_or_not": "yes", "metaphor_count": 1, "metaphorical_terms": "රබර්‌ ගස්‌ හිස", "metaphor_in_english": "The rubber head", "metaphor_meaning_in_english": "Rubber trees are grown high as a head to the rest"}
 {"index": {"_index": "poems"}}
 {"poem_name": "සුතනඹුන් මරා ගෙල වැළ ලා ගත් පියෙක්", "poet": "ආරියවංශ රණවීර​", "line": "එල්ලුණු සිරුර පිස", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
 {"index": {"_index": "poems"}}
@@ -623,21 +623,21 @@
 {"index": {"_index": "poems"}}
 {"poem_name": "ඉම් පෙදෙස්", "poet": "ආරියවංශ රණවීර​", "line": "සිනහව කඳුළ ඉක්මවූ එක්තරා රාජ්‍යයක​", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
 {"index": {"_index": "poems"}}
-{"poem_name": "", "poet": "ආරියවංශ රණවීර​", "line": "නිදි පහුර එන තෙක් බලා හිඳිනා", "metaphor_present_or_not": "yes", "metaphor_count": 1, "metaphorical_terms": "නිදි පහුර", "metaphor_in_english": "The sleep is a blow (boat)", "metaphor_meaning_in_english": " sleep is a way to temporarily disconnect from the waking world, offering a break or relief from the stresses and demands of daily life."}
+{"poem_name": "නින්ද", "poet": "ආරියවංශ රණවීර​", "line": "නිදි පහුර එන තෙක් බලා හිඳිනා", "metaphor_present_or_not": "yes", "metaphor_count": 1, "metaphorical_terms": "නිදි පහුර", "metaphor_in_english": "The sleep is a blow (boat)", "metaphor_meaning_in_english": " sleep is a way to temporarily disconnect from the waking world, offering a break or relief from the stresses and demands of daily life."}
 {"index": {"_index": "poems"}}
-{"poem_name": "", "poet": "ආරියවංශ රණවීර​", "line": "බොහෝ දිගු රාත්‍රිවල​", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
+{"poem_name": "නින්ද", "poet": "ආරියවංශ රණවීර​", "line": "බොහෝ දිගු රාත්‍රිවල​", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
 {"index": {"_index": "poems"}}
-{"poem_name": "", "poet": "ආරියවංශ රණවීර​", "line": "යනවා ද නැවත ගමනක් සිතින්", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
+{"poem_name": "නින්ද", "poet": "ආරියවංශ රණවීර​", "line": "යනවා ද නැවත ගමනක් සිතින්", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
 {"index": {"_index": "poems"}}
-{"poem_name": "", "poet": "ආරියවංශ රණවීර​", "line": "ගත රැලි හලා තුරුණු බව මඳකට ලබාගෙන​", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
+{"poem_name": "නින්ද", "poet": "ආරියවංශ රණවීර​", "line": "ගත රැලි හලා තුරුණු බව මඳකට ලබාගෙන​", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
 {"index": {"_index": "poems"}}
-{"poem_name": "", "poet": "ආරියවංශ රණවීර​", "line": "දකිනා විටදි රස පොළොව​", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
+{"poem_name": "නින්ද", "poet": "ආරියවංශ රණවීර​", "line": "දකිනා විටදි රස පොළොව​", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
 {"index": {"_index": "poems"}}
-{"poem_name": "", "poet": "ආරියවංශ රණවීර​", "line": "පල බර තුරු අරන් උසුලාගෙන සිටින​", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
+{"poem_name": "නින්ද", "poet": "ආරියවංශ රණවීර​", "line": "පල බර තුරු අරන් උසුලාගෙන සිටින​", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
 {"index": {"_index": "poems"}}
-{"poem_name": "", "poet": "ආරියවංශ රණවීර​", "line": "කැඳවන විටදි නිල් ඌල්", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
+{"poem_name": "නින්ද", "poet": "ආරියවංශ රණවීර​", "line": "කැඳවන විටදි නිල් ඌල්", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
 {"index": {"_index": "poems"}}
-{"poem_name": "", "poet": "ආරියවංශ රණවීර​", "line": "බැස නා ගන්න කියමින​", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
+{"poem_name": "නින්ද", "poet": "ආරියවංශ රණවීර​", "line": "බැස නා ගන්න කියමින​", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
 {"index": {"_index": "poems"}}
 {"poem_name": "ඔන්න ආයෙත් මල් ඇවිත්", "poet": "ආරියවංශ රණවීර​", "line": "ඔන්න ආයෙත් මල් ඇවිත්", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
 {"index": {"_index": "poems"}}
@@ -723,7 +723,7 @@
 {"index": {"_index": "poems"}}
 {"poem_name": "වැහි රංගනය​", "poet": "ආරියවංශ රණවීර​", "line": "සිට​", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
 {"index": {"_index": "poems"}}
-{"poem_name": "රොබත් ෆ්‍රොස්ට​", "poet": "ආරියවංශ රණවීර​", "line": "සුදු රුවල් ය​ ඔබේ කවි", "metaphor_present_or_not": "yes", "metaphor_count": 1, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
+{"poem_name": "රොබත් ෆ්‍රොස්ට​", "poet": "ආරියවංශ රණවීර​", "line": "සුදු රුවල් ය​ ඔබේ කවි", "metaphor_present_or_not": "yes", "metaphor_count": 1, "metaphorical_terms": "සුදු රුවල් ය​ ඔබේ කවි", "metaphor_in_english": "Your poems are white sails", "metaphor_meaning_in_english": "Your poems guide to the best places as white sails guide ship to the best lands."}
 {"index": {"_index": "poems"}}
 {"poem_name": "රොබත් ෆ්‍රොස්ට​", "poet": "ආරියවංශ රණවීර​", "line": "සුළඟත් සමඟ​", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
 {"index": {"_index": "poems"}}
@@ -735,13 +735,13 @@
 {"index": {"_index": "poems"}}
 {"poem_name": "රොබත් ෆ්‍රොස්ට​", "poet": "ආරියවංශ රණවීර​", "line": "යන අතර​", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
 {"index": {"_index": "poems"}}
-{"poem_name": "ගිර හා සඳ", "poet": "ආරියවංශ රණවීර​", "line": "සඳවත වටා වැඩ බැඳුමට කවුද සපන්", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "සඳවත", "metaphor_in_english": "The moon is a face", "metaphor_meaning_in_english": "moon's surface features, such as craters and shadows, can resemble facial features, like eyes, nose, and mouth. "}
+{"poem_name": "ගිර හා සඳ", "poet": "ආරියවංශ රණවීර​", "line": "සඳවත වටා වැඩ බැඳුමට කවුද සපන්", "metaphor_present_or_not": "yes", "metaphor_count": 1, "metaphorical_terms": "සඳවත", "metaphor_in_english": "The moon is a face", "metaphor_meaning_in_english": "moon's surface features, such as craters and shadows, can resemble facial features, like eyes, nose, and mouth. "}
 {"index": {"_index": "poems"}}
 {"poem_name": "ගිර හා සඳ", "poet": "ආරියවංශ රණවීර​", "line": "සඳකට නතර කළ හැකි වෙ ද යනෙන ගමන්", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
 {"index": {"_index": "poems"}}
-{"poem_name": "ගිර හා සඳ", "poet": "ආරියවංශ රණවීර​", "line": "ගිරි හිස් කොතෙක් නම් වෙ ද සඳ පහන පතන්", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "ගිරි හිස්", "metaphor_in_english": "The stone is a head", "metaphor_meaning_in_english": "emphasize the hardness or firmness of the stone, akin to the strength or durability associated with a head. "}
+{"poem_name": "ගිර හා සඳ", "poet": "ආරියවංශ රණවීර​", "line": "ගිරි හිස් කොතෙක් නම් වෙ ද සඳ පහන පතන්", "metaphor_present_or_not": "yes", "metaphor_count": 1, "metaphorical_terms": "ගිරි හිස්", "metaphor_in_english": "The stone is a head", "metaphor_meaning_in_english": "emphasize the hardness or firmness of the stone, akin to the strength or durability associated with a head. "}
 {"index": {"_index": "poems"}}
-{"poem_name": "ගිර හා සඳ", "poet": "ආරියවංශ රණවීර​", "line": "සඳ සම සිතින් සැනසිය යුතු නො වෙ ද ඔවුන්", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "සඳවත", "metaphor_in_english": "The moon is a face", "metaphor_meaning_in_english": "moon's surface features, such as craters and shadows, can resemble facial features, like eyes, nose, and mouth. "}
+{"poem_name": "ගිර හා සඳ", "poet": "ආරියවංශ රණවීර​", "line": "සඳ සම සිතින් සැනසිය යුතු නො වෙ ද ඔවුන්", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
 {"index": {"_index": "poems"}}
 {"poem_name": "ඇදුරිඳු ගිලානව​", "poet": "ආරියවංශ රණවීර​", "line": "සරා ගැඹර මිනිසත් බැව් මහ සයුර​", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
 {"index": {"_index": "poems"}}
@@ -821,7 +821,7 @@
 {"index": {"_index": "poems"}}
 {"poem_name": "රහස​", "poet": "ආරියවංශ රණවීර​", "line": "තැන්පත් කළෙමි", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
 {"index": {"_index": "poems"}}
-{"poem_name": "නිවුණු", "poet": "ආරියවංශ රණවීර​", "line": "යමහලක් මා නිවුණු", "metaphor_present_or_not": "yes", "metaphor_count": 1, "metaphorical_terms": "යමහලක් \nමා\nනිවුණු", "metaphor_in_english": "I am a sleeping volcano", "metaphor_meaning_in_english": ""}
+{"poem_name": "නිවුණු", "poet": "ආරියවංශ රණවීර​", "line": "යමහලක් මා නිවුණු", "metaphor_present_or_not": "yes", "metaphor_count": 1, "metaphorical_terms": "යමහලක් \nමා\nනිවුණු", "metaphor_in_english": "I am a sleeping volcano", "metaphor_meaning_in_english": "I have strong emotions, passions, or energy that is currently dormant or inactive, much like a volcano that is not currently erupting. "}
 {"index": {"_index": "poems"}}
 {"poem_name": "දෙවුන්දර කජු ලියෝ​", "poet": "ආරියවංශ රණවීර​", "line": "උණු", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
 {"index": {"_index": "poems"}}
@@ -835,7 +835,7 @@
 {"index": {"_index": "poems"}}
 {"poem_name": "දෙවුන්දර කජු ලියෝ​", "poet": "ආරියවංශ රණවීර​", "line": "බෙදාදෙන​", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
 {"index": {"_index": "poems"}}
-{"poem_name": "දෙවුන්දර කජු ලියෝ​", "poet": "ආරියවංශ රණවීර​", "line": "කළුවන් කළු මුහුදු ලිය​", "metaphor_present_or_not": "yes", "metaphor_count": 1, "metaphorical_terms": "කළුවන් කළු\nමුහුදු ලිය​", "metaphor_in_english": "The  black sea is a bwoman", "metaphor_meaning_in_english": "I have strong emotions, passions, or energy that is currently dormant or inactive, much like a volcano that is not currently erupting. "}
+{"poem_name": "දෙවුන්දර කජු ලියෝ​", "poet": "ආරියවංශ රණවීර​", "line": "කළුවන් කළු මුහුදු ලිය​", "metaphor_present_or_not": "yes", "metaphor_count": 1, "metaphorical_terms": "කළුවන් කළු\nමුහුදු ලිය​", "metaphor_in_english": "The  black sea is a woman", "metaphor_meaning_in_english": "Sea is calm and ferocious at the same time like a woman"}
 {"index": {"_index": "poems"}}
 {"poem_name": "අමුතු මිතුරෙක්", "poet": "ආරියවංශ රණවීර​", "line": "තාපස කකුළුවෙකි ඔබ​", "metaphor_present_or_not": "yes", "metaphor_count": 1, "metaphorical_terms": "තාපස කකුළුවෙකි ඔබ", "metaphor_in_english": "You are an ascetic crab", "metaphor_meaning_in_english": " person values self-restraint and detachment from worldly desires, similar to the ascetic practices of some religious or philosophical traditions."}
 {"index": {"_index": "poems"}}
@@ -857,7 +857,7 @@
 {"index": {"_index": "poems"}}
 {"poem_name": "අමුතු මිතුරෙක්", "poet": "ආරියවංශ රණවීර​", "line": "මුහුදේ ගැඹර විමසන​", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
 {"index": {"_index": "poems"}}
-{"poem_name": "නෞකා", "poet": "ආරියවංශ රණවීර​", "line": "මහ සයුර මායාකාරීය​", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "මහ සයුර මායාකාරීය​", "metaphor_in_english": "The sea is a witch", "metaphor_meaning_in_english": "a sense of the sea's mystery, power, and unpredictability, similar to the way witches are often depicted as possessing magical and enigmatic qualities. "}
+{"poem_name": "නෞකා", "poet": "ආරියවංශ රණවීර​", "line": "මහ සයුර මායාකාරීය​", "metaphor_present_or_not": "yes", "metaphor_count": 1, "metaphorical_terms": "මහ සයුර මායාකාරීය​", "metaphor_in_english": "The sea is a witch", "metaphor_meaning_in_english": "a sense of the sea's mystery, power, and unpredictability, similar to the way witches are often depicted as possessing magical and enigmatic qualities. "}
 {"index": {"_index": "poems"}}
 {"poem_name": "නෞකා", "poet": "ආරියවංශ රණවීර​", "line": "දෙබිඩි ය​", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
 {"index": {"_index": "poems"}}
@@ -869,7 +869,7 @@
 {"index": {"_index": "poems"}}
 {"poem_name": "නෞකා", "poet": "ආරියවංශ රණවීර​", "line": "දිය පලස එළා", "metaphor_present_or_not": "yes", "metaphor_count": 1, "metaphorical_terms": "දිය පලස", "metaphor_in_english": "The water is a carpet", "metaphor_meaning_in_english": " the surface of the water is smooth and even, much like the flat and soft surface of a carpet."}
 {"index": {"_index": "poems"}}
-{"poem_name": "නෞකා", "poet": "ආරියවංශ රණවීර​", "line": "ඇද ගෙන දියඹ ඇතුළට​", "metaphor_present_or_not": "yes", "metaphor_count": 1, "metaphorical_terms": "මහ සයුර මායාකාරීය​", "metaphor_in_english": "The sea is a witch", "metaphor_meaning_in_english": "a sense of the sea's mystery, power, and unpredictability, similar to the way witches are often depicted as possessing magical and enigmatic qualities. "}
+{"poem_name": "නෞකා", "poet": "ආරියවංශ රණවීර​", "line": "ඇද ගෙන දියඹ ඇතුළට​", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "​", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
 {"index": {"_index": "poems"}}
 {"poem_name": "නෞකා", "poet": "ආරියවංශ රණවීර​", "line": "ක්ලයිටමෙනස්ට්‍රා මෙන්", "metaphor_present_or_not": "no", "metaphor_count": 0, "metaphorical_terms": "", "metaphor_in_english": "", "metaphor_meaning_in_english": ""}
 {"index": {"_index": "poems"}}
