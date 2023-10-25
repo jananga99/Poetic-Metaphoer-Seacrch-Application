@@ -13,15 +13,19 @@ app.use(express.static("public"));
 app.post("/search", async (req, res, next) => {
   const searchOptions = ["poem_name","poet","line","metaphor_count", "metaphor_in_english", "metaphor_meaning_in_english"]
   const searchData = {}
+  const submit = req.body.submit
+  const metaphors_only = req.body.metaphors_only ? true:false
+  delete req.body.submit
+  delete req.body.metaphors_only
   searchOptions.forEach((value)=>{
     if(req.body[value])   searchData[value] = value==="metaphor_count" ?   parseInt(req.body[value]):req.body[value]
   })
   try {
     let searchResults;
-    if(req.body.submit === "search-all"){
-      searchResults = await searchAll(onlyMetaphors=true);
-    }else if(req.body.submit === "search"){
-      searchResults = await searchByTerms(searchData, onlyMetaphors=true);
+    if(submit === "search-all"){
+      searchResults = await searchAll(onlyMetaphors=metaphors_only);
+    }else if(submit === "search"){
+      searchResults = await searchByTerms(searchData, onlyMetaphors=metaphors_only);
     } else {
       throw new Error("Unknown submit option")
     }
