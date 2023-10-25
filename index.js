@@ -29,21 +29,22 @@ app.post("/search", async (req, res, next) => {
     } else {
       throw new Error("Unknown submit option")
     }
-    res.render("index", { searchResults, error: null, searchData });
+    res.render("index", { searchResults, error: null, searchData, metaphors_only });
   } catch (err) {
     next(err);
   }
 });
 
 app.use((req, res) => {
-  res.render("index", { searchResults: null, error: null, searchData:null });
+  res.render("index", { searchResults: null, error: null, searchData:null, metaphors_only:false });
 });
 
 app.use((err) => {
   res.render("index", {
     searchResults: null,
     error: "An error occurred while searching.",
-    searchData: null
+    searchData: null,
+    metaphors_only: false
   });
 });
 
